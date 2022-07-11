@@ -8,9 +8,9 @@ export const Admin = () => {
     const [isLogged, setIsLogged] = useState(true);
     useEffect(() => {
         if (isLogged) {
-            navigate('projects')
-        } else {
             navigate('login')
+        } else {
+            navigate('projects')
         }
     }, [isLogged, navigate])
     return (

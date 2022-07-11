@@ -7,7 +7,7 @@ import {habilidades} from '../assets/data/habilidades'
 import {aboutMe} from '../assets/data/habilidades'
 export const AcercaDeMi = () => {
     return (
-        <>
+        <div id='habilidades'>
             <section id='about' className='bg-teal-500 lg:h-middle h-96 flex justify-center lg:items-start lg:pt-32 items-center lg:mb-5 mb-36'>
                 <div className="flex flex-col items-center justify-center">
                     <div className="flex items-start justify-start w-full lg:px-40 px-10 pb-3">
@@ -43,6 +43,6 @@ export const AcercaDeMi = () => {
                 list={habilidades['otras']}
                 />
             </section>
-        </>
+        </div>
     )
 }
